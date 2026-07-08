@@ -8,15 +8,22 @@ Bot integration in whats app account
 Folder Structure
 backend/
 │
-├── src/
-│ ├── config/
-│ ├── controllers/
-│ ├── middleware/
-│ ├── routes/
-│ ├── services/
-│ ├── utils/
+├── package.json
+├── package-lock.json
+├── src
 │ ├── app.ts
-│ └── server.ts
+│ ├── config
+│ │ └── env.ts
+│ ├── controllers
+│ │ └── webhook.controller.ts
+│ ├── middleware
+│ ├── routes
+│ │ └── webhook.routes.ts
+│ ├── server.ts
+│ ├── services
+│ │ ├── ai.service.ts
+│ │ └── whatsapp.service.ts
+│ └── utils
 │
 ├── node_modules/
 ├── package.json

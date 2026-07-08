@@ -19,6 +19,8 @@ backend/.env
 backend/.env.*
 backend/!.env.example
 
+backend/dist
+
 # Gatsby files
 backend/.cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
