@@ -78,3 +78,7 @@ verify_token = your_token (using in .env)
 Then save
 
 Now we are ready to test message webhook
+Subscribe messages webhook
+Test it and check
+http://127.0.0.1:4040/inspect/http
+your Terminal
